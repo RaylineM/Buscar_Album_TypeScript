@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f8f8;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.header {
+    background-color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.main {
+    margin-top: 10px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: black;
+}
+
+select,
+input[type="text"] {
+    flex: 1;
+    color: #333;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: solid 2px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+button[type="button"] {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+button[type="button"]:hover {
+    background-color: #333;
+}
+
+.erro {
+    margin-left: 20px;
+    color: red;
+    margin-top: 20px;
+}
+
+.albuns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.capa {
+    width: 200px;
+    margin: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.capa:hover {
+    transform: scale(1.05);
+}
